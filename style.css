@@ -52,6 +52,11 @@ nav a {
     padding: 5px;
 
 }
+.background {
+    background-image: url('./coding.jpeg');
+    min-height: 200px;
+    background-size: cover;
+}
 
 .css  {
     background: gray;

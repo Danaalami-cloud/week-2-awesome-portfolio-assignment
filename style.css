@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: 
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: blanchedalmond;
+    line-height: 1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding: 15px 6.5% 15.5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: aquamarine;
+    box-shadow: 0 4.5px 34.5px antiquewhite;
+}
+
+header h1 {
+    color: brown;
+    background-color: antiquewhite;
+    padding: 4px 2% 4px 7%;
+    margin: 0;
+    font-size: 5vw;
+    line-height: 2;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.css code {
+    background: gray;
+    background-image: url("https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80.jpg"),
+    linear-gradient(180deg, 0%, 100%);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hue;
+    min-height: 35vh;
+    color: whitesmoke;
+    padding: 3% 7%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+.css code div {
+    flex: 0 0 80%;
+}
+.css code h2 {
+    background-color: red;
+    color: grey;
+    margin: 0;
+    padding: 4px 9px;
+    font-size: 3rem;
+    line-height: 1.5;
+    display: inline;
+}

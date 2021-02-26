@@ -34,12 +34,10 @@ header {
 }
 
 header h1 {
-    color: brown;
-    background-color: antiquewhite;
-    padding: 4px 2% 4px 7%;
+    color:green;    
+    padding: 3px 1% 3px 5%;
     margin: 0;
     font-size: 2.5em;
-    line-height: 2;
 }
 
 nav {
@@ -50,29 +48,29 @@ nav {
 
 nav a {
     padding: 5px;
+    color: red;
+    font-size: 2em;
 
 }
 .background {
-    background-image: url('./coding.jpeg');
-    min-height: 200px;
+    background-image: url(assets/coding.jpeg);
+    min-height: 300px;
+    margin: 0%;
+    padding: 4em;
     background-size: cover;
+    text-align: right;
+    color: red;
+    font-size: 2em;
 }
 
-.css  {
-    background: gray;
-    background-image: url("https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80.jpg"),
-    linear-gradient(180deg, 0%, 100%);
+.bar  {
+    background-image: url(assets/256bar.jpg);
+    min-height: 250px;
     background-size: cover;
-    background-position: center;
-    background-blend-mode: hue;
-    min-height: 35vh;
-    color: whitesmoke;
-    padding: 3% 7%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: right;
+
 }
+
+
 .css code div {
     flex: 0 0 80%;
 }

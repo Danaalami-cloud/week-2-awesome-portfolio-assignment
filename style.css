@@ -21,7 +21,11 @@ h1,h2,h3,h4,h5,h6 {
 p {
     margin: 0;
 }
-
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
 header {
     padding: 20px;
     display: flex;
@@ -38,50 +42,108 @@ header h1 {
     background-color: antiquewhite;
     padding: 4px 2% 4px 7%;
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 2;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    position: relative;
+    z-index: 1;
+}
+
+ul {
+    position: relative;
+}
+nav ul li span {
+    position: absolute;
+    background: #faebd7;
+    left: 0;
+    right: 0;
+    /* top: 0; */
+    bottom: 0;
+    height: 3px;
+}
+
+nav ul li:hover span {
+    /* top: 0; */
+    height: 100%;
+    transition: 0.5s;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 nav a {
     padding: 5px;
+    color: red;
+    font-size: 2em;
+    text-decoration: none;
+}
 
+.background h2 {
+    color: red;
+    /* font-size: 2em; */
+    /* right: 10%; */
+    /* top: 20%; */
+    /* max-width: 350px; */
+    /* position: absolute; */
 }
 .background {
-    background-image: url('./coding.jpeg');
-    min-height: 200px;
+    max-height: 300px;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    width: 100vw;
+    overflow: auto;
+    background-image: url('./assets/coding.jpeg');
+}
+.background img {
     background-size: cover;
+    display: block;
+    width: 100%;
+    min-height: 30vh;
+    background-position: center;
+    justify-content: flex-end;
 }
 
-.css  {
-    background: gray;
-    background-image: url("https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80.jpg"),
-    linear-gradient(180deg, 0%, 100%);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: hue;
-    min-height: 35vh;
-    color: whitesmoke;
-    padding: 3% 7%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: right;
-}
-.css code div {
-    flex: 0 0 80%;
-}
-.css code h2 {
-    background-color: red;
-    color: grey;
+
+.flex-item h3 {
+    font-size: 2.5em;
+    padding: 7px;
     margin: 0;
-    padding: 4px 9px;
-    font-size: 3rem;
-    line-height: 1.5;
-    display: inline;
+}
+
+.bannerContent {
+    text-align: right;
+    padding: 120px 0 35px 0;
+}
+.aboutTitle {
+    width: 200px;
+    border-right: 2px solid #f0f;
+    display: inline-block;
+    height: 282px;
+    float: left;
+    padding: 2;
+}
+
+.aboutContent {
+    width: calc(100% - 204px);
+    display: inline-block;
+}
+.clearfix {
+    clear: both;
+}
+
+.bar  {
+    display: block;
+    border: 5px solid;
+
 }

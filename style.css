@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: navy;
     background-color: blanchedalmond;
     line-height: 1;
 }
@@ -113,6 +113,31 @@ nav a {
     justify-content: flex-end;
 }
 
+.page-wrapper {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.page-section > h2 {
+    flex: 0 0 25%;
+    text-align: center;
+    border-right: 5px solid navy;
+    padding: 15px;
+    line-height: 1.2;
+    font-size: 4vw;
+}
+
+.page-section > div {
+    flex: 0 0 75%;
+    text-align: left;
+}
 
 .flex-item h3 {
     font-size: 2.5em;
@@ -124,6 +149,9 @@ nav a {
     text-align: right;
     padding: 120px 0 35px 0;
 }
+
+
+
 .aboutTitle {
     width: 200px;
     border-right: 2px solid #f0f;

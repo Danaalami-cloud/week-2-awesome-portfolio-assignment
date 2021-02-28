@@ -38,9 +38,8 @@ header {
 }
 
 header h1 {
-    color: brown;
-    background-color: antiquewhite;
-    padding: 4px 2% 4px 7%;
+    color:green;    
+    padding: 3px 1% 3px 5%;
     margin: 0;
     font-size: 2em;
     line-height: 2;
@@ -130,8 +129,27 @@ nav a {
     border-right: 2px solid #f0f;
     display: inline-block;
     height: 282px;
-    float: left;
     padding: 2;
+    background-image: url(assets/coding.jpeg);
+    min-height: 300px;
+    margin: 0%;
+    padding: 4em;
+    background-size: cover;
+    text-align: right;
+    color: red;
+    font-size: 2em;
+}
+
+.bar  {
+    background-image: url(assets/256bar.jpg);
+    min-height: 250px;
+    background-size: cover;
+
+}
+
+
+.css code div {
+    flex: 0 0 80%;
 }
 
 .aboutContent {

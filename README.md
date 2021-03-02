@@ -5,7 +5,7 @@ Table of Contents
 2.Code work
 3. Links
 
-Description
+
 Greetings and Welcome to my ReadeMe, I'm Dana and I'm a recent graduate from the University of Manchester. I'm from Jerusalem, Palestine and studied four years abroad, three in MAnchester and one in Italy as part of my Degree. 
 I'm challenging myself by learning web development and hopefully graduate the course with immense new knowledge and skills.
 

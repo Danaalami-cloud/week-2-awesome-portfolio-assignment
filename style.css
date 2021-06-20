@@ -312,3 +312,11 @@ a.flex-item:nth-child(2) {
 .mental {
     background-image: url(./assets/lookafteryourself3000.png);
 }
+
+.weather {
+    background-image: url(./assets/weatherfortelling.png);
+}
+
+.quiz {
+    background-image: url(./assets/jsquiz.png);
+}
